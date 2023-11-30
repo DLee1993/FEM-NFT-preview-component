@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
+:root {
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --VerydarkblueBG: hsl(217, 54%, 11%);
+    --VerydarkblueCARD: hsl(216, 50%, 16%);
+    --VerydarkblueLINE: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--VerydarkblueBG);
+    color: var(--White);
+    font-family: "Outfit", sans-serif;
+    font-size: 18px;
+}
+
+.attribution {
+    color: var(--Softblue);
+}
+a {
+    color: var(--White);
+}
+
+.nft-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 325px;
+    background-color: var(--VerydarkblueCARD);
+    border-radius: 15px;
+    padding: 20px 10px 10px 10px;
+}
+
+#nft {
+    width: 95%;
+    border-radius: 10px;
+}
+
+#image-avatar {
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--White);
+    border-radius: 50%;
+}
+
+#nft-info {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    min-height: 225px;
+    padding: 20px 0 10px 0;
+}
+
+#nft-info p {
+    color: var(--Softblue);
+    font-size: 16px;
+}
+
+#nft-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+#nft-details span {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#nft-details img {
+    margin-right: 10px;
+}
+
+#nft-details span:first-of-type {
+    color: var(--Cyan);
+}
+
+#nft-details span:last-of-type {
+    color: var(--Softblue);
+}
+
+#creator {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-top:  1px solid var(--Softblue);
+    padding-top: 15px;
+}
+
+#creator img {
+    margin-right: 15px;
+}
+
+#creator p {
+    color: var(--Softblue);
+}
+
+#creator p span {
+    color: var(--White);
+}
