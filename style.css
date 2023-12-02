@@ -51,7 +51,6 @@ figure {
     justify-content: center;
     align-items: center;
     position: relative;
-    background-color: red;
     border-radius: 10px;
     cursor: pointer;
 }
@@ -72,7 +71,7 @@ figure {
 }
 
 #nft {
-    width: 100%;
+    width: 90%;
     border-radius: 10px;
 }
 
@@ -84,7 +83,7 @@ figure {
 }
 
 #nft-info {
-    width: 95%;
+    width: 90%;
     display: flex;
     justify-content: space-between;
     align-items: start;
